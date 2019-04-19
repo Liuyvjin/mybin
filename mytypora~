@@ -1,6 +1,0 @@
-#! /bin/bash
-echo "123123" | sudo -S dpkg --force-all -i ~/mybin/libstdc++6_5.4.0-6ubuntu1_16.04.10_amd64.deb && typora  $1 && echo "123123" | sudo -S dpkg -i --force-all ~/mybin/libstdc++6_8.1.0-5ubuntu1~14.04_amd64.deb
-
-
-
-
