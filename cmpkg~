@@ -1,0 +1,3 @@
+#!/bin/bash
+echo $1
+catkin_make -DCATKIN_WHITELIST_PACKAGES="$1"
