@@ -14,6 +14,7 @@ alias ccpkg='catkin_create_pkg' # 简短的ros创建包指令
 export PATH=~/app/clion-2019.1/bin:${PATH}  
 # 定义opencv要用的环境变量
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig  
-
-
+# 定义Qt的环境变量
+export LD_LIBRARY_PATH=/home/liujin/app/tools/freetype/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/home/liujin/app/tools/dbus/lib:$LD_LIBRARY_PATH
 

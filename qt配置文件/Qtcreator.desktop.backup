@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=/home/liujin/app/Qt5.12.3/Tools/QtCreator/bin/myqtcreator.sh $@
+Name=Qtcreator
+Icon=qmlscene
+# X-Ubuntu-Touch=true
