@@ -1,4 +1,0 @@
-#! /bin/zsh
-## 快捷载入ros工作空间,前提是把ros工作空间放在/home/liujin/work/下面
-source ~/work/$1/devel/setup.zsh && echo "成功载入工作空间$1"
- 
