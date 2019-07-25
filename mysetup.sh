@@ -8,8 +8,8 @@ PATH=$PATH:/home/liujin/mybin/mytypora
 alias rm='saferm.sh -q' #用这个sh代替rm，可以给rm加个垃圾桶 -q代表静默
 
 #ros
-source /opt/ros/indigo/setup.bash  # 自动载入ros
-source  ~/work/ros_ws/devel/setup.bash  # 加载ros默认工作空间
+ssource /opt/ros/kinetic/setup.zsh  # 自动载入ros
+source  ~/work/wanderbot_ws/devel/setup.zsh  # 加载ros默认工作空间
 alias ccpkg='catkin_create_pkg' # 简短的ros创建包指令
 
 # 配置clion

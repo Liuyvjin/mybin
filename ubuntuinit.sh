@@ -7,6 +7,4 @@ source ~/.bashrc
 #将安全删除脚本安装
 sudo cp ubuntuinit.sh /bin
 #确保可执行
-chmod uo+x ~/mybin/cmpkg 
-chmod uo+x ~/mybin/mymoveit 
 chmod uo+x ~/mybin/mytypora/mytypora
